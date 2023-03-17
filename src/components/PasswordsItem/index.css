@@ -1,0 +1,74 @@
+.pass-list {
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border: 1px solid #9ba9eb;
+  border-radius: 7px;
+  margin-bottom: 15px;
+}
+
+@media screen and (max-width: 1059px) {
+  .pass-list {
+    width: 260px;
+  }
+}
+
+@media screen and (min-width: 1060px) {
+  .pass-list {
+    width: 32%;
+    margin-right: 10px;
+  }
+}
+.domain-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.first-letter {
+  font-size: 16px;
+  color: white;
+  background-color: green;
+  width: 35px;
+  border-radius: 25px;
+  text-align: center;
+  padding: 8px;
+  margin: 20px;
+}
+.domain {
+  font-size: 20px;
+  color: #ffffff;
+  font-family: 'Roboto';
+  margin: 0;
+}
+.username {
+  font-size: 16px;
+  color: #ffffff;
+  font-family: 'Roboto';
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.stars {
+  width: 100px;
+  height: 15px;
+  margin: 0;
+  margin-top: 5px;
+}
+.delete-image {
+  width: 24px;
+  height: 24px;
+}
+
+.del-button {
+  width: 24px;
+  height: 24px;
+  background-color: transparent;
+  border-style: none;
+  outline: none;
+  margin-left: auto;
+  margin-right: 20px;
+}
